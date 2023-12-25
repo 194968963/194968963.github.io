@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+<h1>H1大小的字体</h1>
+<h2>H2大小的字体</h2>
+<a id="a1"></a>
+<h1>我的第一个标题</h1>
+<p>我的第一个段落。</p>
+<i>斜体</i><br/>
+<em>强调斜体</em><br/>
+<b>强调粗体</b><br/>
+<strong>强调粗体</strong>
+<sub>下标</sub>
+<sup>上标</sup>
+<hr/>
+<img src="./images/世界地图.jpg" alt="世界图片" width="200"/><hr/>
+<img src="./images/世界.jpg" alt="世界图片" width="200"/><hr/>
+<img src="https://www.baidu.com/img/bd_logo1.png" title="百度图片" alt="百度图片" width="200"/>
+<a href="http://www.taobao.com" target="_blank">淘宝</a>
+<a href="#a1">我第一个标题</a>
+
+<h1>HTML实例--表格标签</h1>
+<table border="1" width="500" cellspacing="0" cellpadding="4">
+    <caption><h2>学生信息表</h2></caption>
+    <thead>
+        <tr>
+            <th>学号</th>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>年级</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1001</td>
+            <td>张三</td>
+            <td>20</td>
+            <td rowspan="2" align="center" valign="center">t201班</td>
+        </tr>
+        <tr>
+            <td>1001</td>
+            <td>李四</td>
+            <td>20</td>
+            <!--<td>t201班</td>-->
+        </tr>
+        <tr>
+            <td>2002</td>
+            <td>王五</td>
+            <td>20</td>
+            <td>t202班</td>
+        </tr>
+        <tr>
+            <td>2002</td>
+            <td>赵六</td>
+            <td>20</td>
+            <td>t202班</td>
+        </tr>
+    </tbody>
+
+    <h2>表单实例</h2>
+
+    <form action="" method="post">
+        账号：<input type="text" name="uname"/><br/>
+        密码：<input type="password" name="upass"/><br/>
+        性别：<input type="radio" name="sex" values="1">男
+            <input type="radio" name="sex" values="0">女<br/><br/>
+        爱好：<input type="checkbox" name="likes" values="0">看书
+        <input type="checkbox" name="likes" values="0">爬山
+        <input type="checkbox" name="likes" values="0">唱歌
+        <input type="checkbox" name="likes" values="0">游泳<br/><br/>
+        头像：<input type="file" name="'pic"><br><br>
+        邮箱：<input type="email" placeholder="请输入你的邮箱" name="pic"><br/><br/> 
+        年龄：<input type="number" min="18" max="80" name="pic"><br/><br/> 
+        指数：<input type="number" min="18" max="80" name="pic"><br/><br/> 
+        网址：<input type="url" value="https://www.baidu.com" name="pic"><br/><br/> 
+        日期：<input type="date" name="'pic"><br/><br/> 
+        颜色：<input type="color" name="'pic"><br/><br/> 
+        学历：<select name="education" id="">
+            <option value="1">大专</option>
+            <option value="2">本科</option>
+            <option values="3">硕士</option>
+            <option values="4"selected>研究生</option>
+            <option values="5">博士</option>
+        </select><br/><br/>
+        简介：<textarea row="10" cols="100" name="contents">hello</textarea>
+        搜索：
+        <input type="'search" list="namelist" name="keywords">
+        <datalist id="namelist">
+            <option value="zhangsan">
+            <option value="zhangsanfengh">
+            <option value="zhangwuji">
+            <option value="lisi">
+            <option value="lixiaolong">
+        </datalist>
+        <br/><br/>
+        城市：
+        <select name="city">
+            <optgroup label="河北省">
+                <option>石家庄</option>
+                <option>保定</option>
+                <option>廊坊</option>
+            </optgroup>
+            <optgroup label="河南省">
+                <option>郑州</option>
+                <option>安阳</option>
+                <option>周口</option>
+            </optgroup>
+        </select>
+        <br/><br/>
+        <fieldset>
+            <legend>个人信息：</legend>
+            姓名：<input type="text"><br/>
+            年龄：<input type="text"><br/>
+        </fieldset><br/><br/>
+        <input type="submit" value="登录">
+    </form>
+    <h1>html框架标签</h1>
+    <u1>
+        <li><a href="https://www.runoob.com/" target="myframe">菜鸟教程</a></li>
+        <li><a href="https://baike.baidu.com/item/%E6%8B%AC%E5%8F%B7/999048" target="myframe">百度搜索</a></li>
+        <li><a href="https://cn.bing.com/search?q=url&form=ANNTH1&refig=42af7258650747948d490d11b73e10d2" target="myframe">bing搜索</a></li>
+    </u1>
+    <iframe src="https://bxo6gsfmgz.feishu.cn/wiki/VABpwcjFUi736uk5oL4cYVoCnQe" name="myframe" frameborder="1" width="80%" height="500"></iframe>
+</table>
+<br/>
+<audio src="./images/beidahuang.mp3" controls>你的浏览器不支持audio音频标签</audio>
+<video src="./images/fun.mp4 " controls width="400" height="400" poster="./images/世界地图.jpg">你的浏览器不支持视频标签</video>
+</body>
+</html>
